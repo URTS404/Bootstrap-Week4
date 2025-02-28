@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid blue;
+}
+
+#product img {
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+#product img:hover {
+  border-color: gold;
+  transform: scale(1.1);
+}
